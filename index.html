@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js"></script>
+    <title>Portfolio NCC</title>
+</head>
+<body>
+    <header>
+        <h2>NCC Portfolio</h2>
+        <nav>
+            <a href="#experience">Experience</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+        </nav>
+    </header>
+
+    <main>
+        
+        <div>
+            <H1>Hi there, I'm Noami Costa</H1>
+            <p>Junior software developer || Full Stack Web Developer</p>
+            <div id="contactDiv">
+                <p>Contact me</p>
+                <a href="mailto:aa@aa.aa"><img src="./images/gmail_Icon.png" alt="gmail"></a>
+                <a href="tel:+351900111444"><img src="./images/phone_icon.png" alt="phone"></a>
+            </div>
+        </div>
+        
+        <img src="./images/developer.png" alt="">
+        
+    </main>
+
+    <div class="containers">
+
+        <section id="experience">
+            <h1>Experience</h1>
+            <div>
+                <p>Former Chairman of the Board of Directors in the government organization Children’s Parliament of Guinea-Bissau. (2014-2016)</p>
+                <p>One Semester of Participation in the Erasmus+ Exchange in Poland.</p>
+                <p>Development of a full-Stack webapp for a private startup as a freelancer.</p>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h1>Technical Skills</h1>
+            <div>
+                <p>Java</p>
+                <p>JavaScript</p>
+                <p>Python</p>
+                <p>SQL</p>
+                <p>MySQL</p>
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>EJS</p>
+                <p>React</p>
+                <p>Node.js/Express.js</p>
+                <p>Git / GitHub</p>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h1>Projects</h1>
+
+            <p> <span>Web Programming</span>  – The main objective of this project was to develop a Full-Stack
+                web solution that would allow the creation of a website with information about 
+                video games and a forum on the subject, using HTML, CSS, JavaScript, Node.js/Express.js and MySQL.
+            </p>
+
+            <p> <span>Project of the Database Complements Course</span> which aims to familiarize with the administration of relational 
+              databases using SQLServer, through the implementation of a new system for grouping schools named "Agrupamento STB". <br>
+              One of the measures adopted by the group is to develop a new information system that allows it to manage, in an integrated way,
+              the entire process of launching grades of the different schools in the grouping, as well as allowing students and guardians to
+              have access to this information. <br>
+              With the implementation of the new system, it became necessary to model and integrate, in a new Database, the pieces of information
+              that were exported from existing systems and that up to now supported the various schools in the cluster. The main concepts used
+              were Programming (Stored Procedures, Functions, Triggers), Metadata, Indexes, Backup and Recovery, Access levels, Encryption, and
+              transaction control.
+            </p>
+
+
+            <p> <span>Java Advanced Programming</span>  - A logistics network consists of the location of the distribution centers and product movements between
+                these centers when each route is bidirectional. This program consists of a graphical application in which the user views, manipulates, 
+                and obtains diverse information about a logistics network. <br>
+                Throughout the project, the following several abstract data types were used: ArrayList, HashMap, LinkedHashMap. We also used data types
+                by us implemented as following shown: Graph, GraphAdjacencyList, Vertex and Edge. Referring to Design Patterns, we used: Observer Pattern,
+                Strategy Pattern, MVC Pattern. We also used refactoring techniques to avoid bad smells in the program.
+                </p>
+
+        </section>
+
+        <section id="education">
+            <h1>Education</h1>
+            <p>Currently – Student of the last year of bachelor’s degree in Software Engineering at the Polytechnic Institute of Setúbal. 
+                To point out that I lack one subject (I am doing it now) and the internship to finish the course.</p>
+        </section>
+
+        <section id="otherTraining">
+            <h1>Other Training</h1>
+            <article>
+                <img src="./images/certificate_responsiveWebDesign.JPG" alt="certificate_responsiveWebDesign" width="300" height="300" download>
+                <p>Responsive Web Design – freeCodeCamp</p>
+            </article>
+
+            <article>
+                <embed src="./images/certificate_CompleteWebDevBootcamp.pdf" type="" width="300" height="300" >
+                <p>The Complete 2020 Web Development Bootcamp</p> 
+            </article>
+
+            <article>
+                <embed src="./images/certificate_JavaProgramming.pdf" type="" width="300" height="300">
+                <p>Learn Java Programming</p>
+            </article>            
+
+        </section>
+
+    </div>
+    <footer>
+        <p>All rights reserved 2022.</p>
+        <p>Developer: Noami Calilo Costa</p>
+    </footer>
+</body>
+</html>
+
+
+<script>
+    (function(){
+    let articles = document.getElementsByTagName("article");
+    
+    for(let i = 0; i < articles.length; i++){
+        articles[i].addEventListener("mouseover", function(evt){
+            
+        });
+    }
+}())
+</script>
