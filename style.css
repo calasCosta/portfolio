@@ -147,6 +147,7 @@ span{
 
 #otherTraining article{
     height: 40vh;
+    width: 40vh;
     display: inline-block;
     margin: 2%;
     background-color: rgba(179, 179, 179, 0.884);
@@ -155,12 +156,15 @@ span{
     box-shadow: 0 0 5px 2px black;
 }
 
-#otherTraining article img , embed{
+#otherTraining article img{
+    width: 100%;
+    height: 80%;
     border-radius: 10px 10px 0 0;
 }
 
 #otherTraining article p{
-    max-width: 300px;
+    width : 100%;
+    height : 20%;
     text-align: center;
     color: rgb(8, 8, 8);
     font-size: 0.9rem;
