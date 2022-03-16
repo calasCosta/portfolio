@@ -156,6 +156,11 @@ span{
     box-shadow: 0 0 5px 2px black;
 }
 
+#otherTraining article{
+    text-decoration: none;
+    color: black;
+}
+
 #otherTraining article img{
     width: 100%;
     height: 80%;
