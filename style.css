@@ -182,11 +182,11 @@ section h1{
 #education p, #projects p{
     margin: auto;
     max-width: 48%;
-    font-size: 22px;
+    font-size: 20px;
     text-align: justify;
     margin-bottom: 14px;
+    line-height: 1.8;
 }
-
 
 span{
     font-style: italic;
