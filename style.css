@@ -4,6 +4,7 @@ body{
     box-sizing: border-box;
     font-family: 'Fredoka', sans-serif;
     color: rgb(0, 0, 0);
+    line-height: 1.5;
 }
 
 header{
@@ -150,7 +151,6 @@ section h1{
     font-size: 20px;
     text-align: justify;
     text-overflow: ellipsis;
-    
 }
 
 
