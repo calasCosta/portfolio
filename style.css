@@ -8,7 +8,7 @@ body{
 
 header{
     width: 100%;
-    height: 10vh;
+    min-height: 10vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -35,7 +35,7 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 4%;
+    gap: 2%;
 }
 
 nav div{
@@ -53,6 +53,10 @@ main{
     background-image: linear-gradient(to top, rgba(19, 87, 121, 0.055), rgba(122, 122, 122, 0.349));
 }
 
+.personInformationDiv{
+    margin: min(5%);
+}
+
 #contactDiv a{
     color : rgb(0, 0, 0);
     text-decoration: none;
@@ -64,17 +68,27 @@ main{
     border-radius: 10px;
     box-shadow: 0 0 5px 0 black;
     padding: 0.5rem;
-    margin: 0.5rem;
+    margin-right: 0.5rem;
 }
 
 #contactDiv a img:hover{
     box-shadow: 0 0 10px 0 black;
 }
 
+.paragraphMain{
+    /*font-weight: bold;*/
+}
 
 .devResumeDiv{
     position: relative;
+    margin: min(5%);
 }
+
+.devResumeDiv img{
+    width: 100%;
+    height: 100%;
+}
+
 
 /* resume */
 .devResumeDiv #resume{
@@ -94,7 +108,7 @@ main{
     box-shadow: 0 0 10px 0 black;
 }
 
-/*-----------  --------------*/
+/*----------- contents --------------*/
 .containers{
     background-color: rgb(255, 255, 255);
 }
@@ -207,3 +221,46 @@ footer{
 
 
 /*********** **************/
+
+@media screen and (max-width: 992px) {
+    
+    main{
+        width: 100%;
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #experience div, #skills div, #education p, #projects p{
+        max-width: 90%;
+        font-size: 17px;
+    }
+
+    #skills div p{
+        width: 40%;
+        font-size: 80%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    
+    header nav{
+        flex-direction: column;
+    }
+
+    main{
+        width: 100%;
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #experience div, #skills div, #education p, #projects p{
+        max-width: 90%;
+        font-size: 17px;
+    }
+}
