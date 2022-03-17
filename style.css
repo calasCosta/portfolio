@@ -14,6 +14,16 @@ header{
     align-items: center;
 }
 
+#check{
+    display: none;
+}
+
+.checkButton{
+    cursor: pointer;
+    display: none;
+}
+
+
 h2{
     cursor: pointer;
 }
@@ -41,6 +51,16 @@ nav{
 nav div{
     margin: 10px;
 }
+
+/*----- hamburger menu ----*/
+.checkButton div{
+    background: rgb(0, 0, 0);
+    width: 28px;
+    height: 5px;
+    margin: 5px;
+    border-radius: 50px;
+}
+
 
 /*------------ main --------------*/
 main{
@@ -262,5 +282,30 @@ footer{
     #experience div, #skills div, #education p, #projects p{
         max-width: 90%;
         font-size: 17px;
+    }
+
+
+    .checkButton{
+        display: block;
+    }
+
+    .menu{
+        position: fixed;
+        width: 95%;
+        height: 90vh;
+        background: rgb(5, 68, 65);
+        top: 80px;
+        left: -110%;
+        transition: all .7s; 
+        
+    }
+
+    .menu a{
+        padding: 10px;
+        margin-left: -10%;
+    }
+
+    #check:checked ~ ul{
+        left: 0;
     }
 }
