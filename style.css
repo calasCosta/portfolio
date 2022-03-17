@@ -15,6 +15,7 @@ header{
     position: sticky;
     top: 0;
     background-color: white;
+    z-index: 1;
 }
 
 h2{
@@ -99,7 +100,6 @@ main{
 .devResumeDiv{
     position: relative;
     margin: min(5%);
-    z-index: -1;
 }
 
 .devResumeDiv img{
