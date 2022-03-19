@@ -69,7 +69,7 @@ main{
     justify-content: center;
     align-items: center;
     gap: 2%;
-    background-image: linear-gradient(to top, rgba(19, 87, 121, 0.055), rgba(122, 122, 122, 0.349));
+    background-image: linear-gradient(to top, rgba(18, 103, 146, 0.425), rgba(255, 255, 255, 0.349));
 }
 
 .personInformationDiv{
@@ -213,7 +213,7 @@ span{
 #otherTraining{
     width: 100%;
     text-align: center;   
-    background-color: #03aacfa2;
+    background-color: #d7e4e99a;
     
 }
 
