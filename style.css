@@ -155,26 +155,15 @@ section h1{
 
 
 /* skills */
-#skills {
-    
-}
 
-#skills div{
+.skillsSection div{
     max-width: 40%;
     margin: auto;
     text-align: center;
     position: relative;
 }
-#humaaansStanding{
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin-left: -10em;
-    margin-top: 5em;
-    
-}
 
-#skills div p{
+.skillsSection div p{
     width: 30%;
     text-align: center;
     display: inline-block;
@@ -187,7 +176,7 @@ section h1{
     vertical-align: top;
 }
 
-#skills div p:hover{
+.skillsSection div p:hover{
     box-shadow: 10px 10px 0px rgba(1, 43, 68, 0.24);
 }
 
@@ -218,14 +207,14 @@ span{
     width: 40vh;
     display: inline-block;
     margin: 2%;
-    background-color: rgba(238, 238, 238, 0.884);
+    background-color: rgba(248, 248, 248, 0.712);
     vertical-align: top;
     border-radius: 10px;
-    box-shadow:  10px 10px 0px rgba(0, 0, 0, 0.253);
+    box-shadow:  10px 10px 0px rgba(141, 141, 141, 0.253);
 }
 
 #otherTraining article:hover{
-    box-shadow: 10px 10px 0px rgba(1, 43, 68, 0.747);
+    box-shadow: 10px 10px 0px rgba(1, 43, 68, 0.24);
 }
 
 #otherTraining article a{
@@ -270,12 +259,12 @@ footer{
         flex-direction: column;
     }
 
-    #experience div, #skills div, #education p, #projects p{
+    #experience div, .skillsSection div, #education p, #projects p{
         max-width: 90%;
         font-size: 17px;
     }
 
-    #skills div p{
+    .skillsSection div p{
         width: 40%;
         font-size: 80%;
     }

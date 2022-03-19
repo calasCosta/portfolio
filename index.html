@@ -7,7 +7,7 @@
     <meta name="author" content="Noami Costa">
     <meta name="keywords" content="Noami Costa, Junior Web Development">
     <link rel="stylesheet" href="style.css">
-    <script src="./script.js"></script>
+    <script src="/script.js"></script>
     <title>Portfolio NCC</title>
 </head>
 <body>
@@ -25,8 +25,7 @@
             <a href="#experience">Experience</a>
             <a href="#skills">Skills</a>
             <a href="#projects">Projects</a>
-            <a href="#projects">Education</a>
-            
+            <a href="#education">Education</a>
         </nav>
     
     </header>
@@ -62,20 +61,20 @@
             </div>
         </section>
 
-        <section id="skills">
+        <section class="skillsSection">
             <h1>Technical Skills</h1>
             
             <div> 
-                <p>Java</p>
-                <p>JavaScript</p>
-                <p>Python</p>
-                <p>SQL</p>
-                <p>MySQL</p>
-                <p>HTML</p>
-                <p>CSS</p>
-                <p>EJS</p>
-                <p>Node.js/Express.js</p>
-                <p>Git / GitHub</p>
+                <p class="skills"> Java</p>
+                <p class="skills"> JavaScript</p>
+                <p class="skills"> Python</p>
+                <p class="skills"> SQL</p>
+                <p class="skills"> MySQL</p>
+                <p class="skills"> HTML</p>
+                <p class="skills"> CSS</p>
+                <p class="skills"> EJS</p>
+                <p class="skills"> Node.js/Express.js</p>
+                <p class="skills"> Git / GitHub</p>
             </div>
         </section>
 
@@ -148,15 +147,11 @@
 
     
     </footer>
+
+
+    
 </body>
 </html>
 
 
-<script>
-    (function(){
-    let copyright = document.getElementById("copyright");
-    let date = new Date(Date.now()).getFullYear();
 
-    copyright.innerText = date;
-}())
-</script>
