@@ -168,13 +168,13 @@ section h1{
     margin: 10px;
     border-radius: 10px;
     cursor: pointer;
-    box-shadow: 0 0 5px 0 rgb(107, 107, 107);
+    box-shadow:  10px 10px 0px rgba(0, 0, 0, 0.05);
     font-weight: bold;
     vertical-align: top;
 }
 
 #skills div p:hover{
-    box-shadow: 0 0 10px 0 rgb(49, 49, 49);
+    box-shadow: 10px 10px 0px rgba(1, 43, 68, 0.24);
 }
 
 
@@ -207,7 +207,11 @@ span{
     background-color: rgba(238, 238, 238, 0.884);
     vertical-align: top;
     border-radius: 10px;
-    box-shadow: 0 0 5px 0 black;
+    box-shadow:  10px 10px 0px rgba(0, 0, 0, 0.253);
+}
+
+#otherTraining article:hover{
+    box-shadow: 10px 10px 0px rgba(1, 43, 68, 0.747);
 }
 
 #otherTraining article a{
