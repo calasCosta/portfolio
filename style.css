@@ -195,7 +195,7 @@ span{
 /* otherTraining */
 .otherTrainingSection{
     display: flex;
-    
+    margin-top: 50px;
 }
 
 .waveDiv{
