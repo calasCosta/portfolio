@@ -69,7 +69,8 @@ main{
     justify-content: center;
     align-items: center;
     gap: 2%;
-    background-image: linear-gradient(to top, rgba(18, 103, 146, 0.425), rgba(255, 255, 255, 0.349));
+    background-color: rgba(240, 240, 240, 0.938);
+    /*background-image: linear-gradient(to top, rgba(137, 156, 165, 0.425), rgba(255, 255, 255, 0.349));*/
 }
 
 .personInformationDiv{
